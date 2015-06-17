@@ -1,2 +1,3 @@
 # google-homepage
-The Odin Project
+[The Odin Project](http://www.theodinproject.com/)
+
