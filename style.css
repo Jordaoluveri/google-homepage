@@ -1,8 +1,12 @@
+body {
+	overflow: hidden;
+}
 #center_piece {
-    position: absolute;
     width: 100%;
     text-align: center;
+    float: middle;
     top: 25%;
+    position: absolute;
 }
 
 #logo {
@@ -21,8 +25,8 @@ form {
 	background: #f2f2f2;
  	border-top: 1px solid #e4e4e4;
  	line-height: 40px;
- 	width: 100%;
  	position: absolute;
+ 	width: 100%;
  	bottom: 0;
 }
 
@@ -46,4 +50,19 @@ form {
 #span_right {
 	float: right;
 	margin-right: 30px;
+}
+
+.header_img {
+	border-radius: 50%;
+}
+
+#header {
+	vertical-align: middle;
+	text-align: right;
+}
+
+#header a {
+	margin-left: 20px;
+	text-decoration: none;
+	color: #666;
 }
